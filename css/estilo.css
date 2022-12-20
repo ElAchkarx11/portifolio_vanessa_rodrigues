@@ -1,0 +1,99 @@
+/* Conteudo geral */
+.light-color {
+    color: #fff;
+}
+
+.dark-color {
+    color: #101010;
+}
+
+.bg-secondary-color{
+    background-color: #FFE4B5;
+}
+
+.title{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Header do site */
+header {
+    background-image: url('./img/bglivros.jpg');
+    padding: 8em;
+}
+
+/* Barra de navegação */
+
+.bg-primary-color{
+    background-color: 	#B22222;
+    
+}
+
+
+/* Apresentação */
+
+#apresentacao img{
+    border-radius: 50%;
+    max-width: 250px;
+    border: 2px solid #B22222;
+}
+
+.btn{
+    background-color: transparent;
+    color: #B22222;
+    border-color: #B22222;
+}
+
+.btn:hover{
+    background-color: #B22222;
+    color: #fff;
+    border-color: #B22222;
+    transition: .5s;
+}
+
+/* Eventos */
+
+#eventos-container{
+    padding: 20px;
+    margin-bottom: 3em;
+}
+
+
+
+#eventos img{
+    max-width: 250px;
+    padding: 10px;
+}
+
+/* Pesquisas */
+
+#pesquisas-container{
+    margin-bottom: 4em;
+}
+
+#pesquisa-container .card{
+    border-radius: 0;
+    border: none;
+}
+
+/* Footer */
+
+footer{
+    padding: 20px;
+    background-color: #F8F8FF;
+}
+
+footer img{
+    max-width: 60px;
+}
+
+#redes-sociais i{
+    font-size: 25px;
+    padding: 15px;
+    color: 	#C0C0C0;
+}
+
+#redes-sociais i:hover{
+    
+    color: 	#A9A9A9;
+}

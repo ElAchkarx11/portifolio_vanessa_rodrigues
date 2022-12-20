@@ -1,0 +1,1 @@
+Layout criado com o objetivo de ser um portifólio da Dr.a Vanessa Elisabete Raue Rodrigues. Desenvolvido com HTML e CSS, com auxilio do framework/biblioteca Boostrap. 
