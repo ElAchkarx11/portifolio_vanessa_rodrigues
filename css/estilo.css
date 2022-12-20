@@ -18,7 +18,7 @@
 
 /* Header do site */
 header {
-    background-image: url('/img/bglivros.jpg');
+    background-image: url('../img/bglivros.jpg');
     padding: 8em;
 }
 
