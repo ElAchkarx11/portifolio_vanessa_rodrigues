@@ -3,48 +3,57 @@
     color: #fff;
 }
 
+.bg-bege {
+    background-color: #dfcfba;
+}
+
 .dark-color {
     color: #101010;
 }
 
-.bg-secondary-color{
-    background-color: #FFE4B5;
+.bg-secondary-color {
+    background-color: #DFCFBA;
 }
 
-.title{
+.title {
     font-weight: 900;
     text-transform: uppercase;
 }
 
 /* Header do site */
 header {
-    background-image: url('./img/bglivros.jpg');
+    background-image: url('../img/bglivros.jpg');
     padding: 8em;
 }
 
 /* Barra de navegação */
 
-.bg-primary-color{
-    background-color: 	#B22222;
-    
+.bg-primary-color {
+    background-color: #B22222;
+
+}
+
+.dropdown-item:active{
+    background-color: #C0C0C0;
+    color: #101010;
 }
 
 
 /* Apresentação */
 
-#apresentacao img{
+#apresentacao img {
     border-radius: 50%;
     max-width: 250px;
     border: 2px solid #B22222;
 }
 
-.btn{
+.btn {
     background-color: transparent;
     color: #B22222;
     border-color: #B22222;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #B22222;
     color: #fff;
     border-color: #B22222;
@@ -53,47 +62,91 @@ header {
 
 /* Eventos */
 
-#eventos-container{
+#eventos-container {
     padding: 20px;
     margin-bottom: 3em;
 }
 
 
 
-#eventos img{
+#eventos img {
     max-width: 250px;
     padding: 10px;
 }
 
 /* Pesquisas */
 
-#pesquisas-container{
+#pesquisas-container {
     margin-bottom: 4em;
 }
 
-#pesquisa-container .card{
+#pesquisa-container .card {
     border-radius: 0;
     border: none;
 }
 
 /* Footer */
 
-footer{
+footer {
     padding: 20px;
     background-color: #F8F8FF;
 }
 
-footer img{
+footer img {
     max-width: 60px;
 }
 
-#redes-sociais i{
+#redes-sociais i {
     font-size: 25px;
     padding: 15px;
-    color: 	#C0C0C0;
+    color: #C0C0C0;
 }
 
-#redes-sociais i:hover{
+#redes-sociais i:hover {
+
+    color: #A9A9A9;
+}
+
+/* Grupos de estudos */
+
+/* Orientações */
+
+
+#orientacoes {}
+
+#orientacoes img {}
+
+/* interesses e Orientações */
+#interesses_orientacoes {}
+
+ul {
+    list-style: none;
+
+}
+
+.interesses {
+    border-bottom: 1px solid #DCDCDC;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.interesses p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Orientações em andamento */
+
+
+#orientacoes-andamento-container{
     
-    color: 	#A9A9A9;
+}
+
+.lista-orientacoes-box{
+    margin: 40px 0;
+}
+
+.lista-orientacoes li{
+    margin: 10px 0;
+    font-size: 15px;
 }
